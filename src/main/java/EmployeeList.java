@@ -5,11 +5,6 @@ public class EmployeeList {
     private ArrayList<Employee> employees;
 
     private EmployeeList() {
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
         this.employees = new ArrayList<Employee>();
     }
 

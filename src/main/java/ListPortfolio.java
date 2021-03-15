@@ -5,11 +5,6 @@ public class ListPortfolio {
     private ArrayList<Portfolio> portfolios;
 
     private ListPortfolio(){
-        try {
-            Thread.sleep(1000);
-        }catch (InterruptedException ex){
-            ex.printStackTrace();
-        }
         this.portfolios = new ArrayList<Portfolio>();
     }
 
