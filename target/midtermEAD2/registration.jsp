@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--Нужен ли сервлет для этой страницы???--%>
 <html>
     <head>
         <title>Registration</title>

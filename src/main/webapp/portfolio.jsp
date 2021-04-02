@@ -23,5 +23,9 @@
                 <label><input type="submit" value="Create Portfolio"></label><br><br>
             </p>
     </form>
+
+    <%
+
+    %>
 </body>
 </html>
