@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Form of Portfolio</h1>
-    <form action="/portfolio" method="POST">
+    <form action="/portfolio">
             <p>
                 <label>Name: <input type="text" name="name"></label><br><br>
                 <label>Date Of Birth:  <input type="date" name="birthday"></label><br><br>
@@ -23,5 +23,9 @@
                 <label><input type="submit" value="Create Portfolio"></label><br><br>
             </p>
     </form>
+
+    <%
+
+    %>
 </body>
 </html>
